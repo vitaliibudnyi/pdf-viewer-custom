@@ -2305,6 +2305,11 @@ function webViewerClick(evt) {
 }
 
 function webViewerKeyDown(evt) {
+  // Ignore space key
+  if (evt.keyCode === 32) {
+    return;
+  }
+
   if (PDFViewerApplication.overlayManager.active) {
     return;
   }
