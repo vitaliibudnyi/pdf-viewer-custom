@@ -16662,11 +16662,11 @@ function onKeyDown(evt) {
         handled = true;
         break;
       case 38:
-        this.moveCaret(true, true);
+        this.moveCaret(true, false);
         handled = true;
         break;
       case 40:
-        this.moveCaret(false, true);
+        this.moveCaret(false, false);
         handled = true;
         break;
       case 82:
