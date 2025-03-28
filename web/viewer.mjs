@@ -16638,9 +16638,9 @@ function onKeyDown(evt) {
       case 82:
         this.rotatePages(90);
         break;
-      case 115:
+      /*case 115:
         this.pdfSidebar?.toggle();
-        break;
+        break;*/
     }
     if (turnPage !== 0 && (!turnOnlyIfPageFit || pdfViewer.currentScaleValue === "page-fit")) {
       if (turnPage > 0) {
